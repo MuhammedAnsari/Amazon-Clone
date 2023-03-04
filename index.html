@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <!-- css flitky -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- script flitky -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- css custom -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontaewsome -->
+    <script src="https://kit.fontawesome.com/853dbe43c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header starts -->
+    <header>
+        <div class="head-top">
+            <div class="nav">
+                <div class="logo-section">
+                    <img src="Assets/Amazon-logo-white.png" alt="">
+                </div>
+                <div class="location-sec">
+                    <p class="loc-usr">Deliver to User</p>
+                    <p class="loc-name">Haripad 690514</p>
+                </div>
+                <div class="input-section">
+                    <select name="" id="">
+                        <option value="">All</option>
+                        <option value="">Alexa</option>
+                        <option value="">Electronics</option>
+                        <option value="">Furniture</option>
+                    </select>
+                    <input type="text" placeholder="Search Amazon.in" name="" id="">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="usr-name">
+                    <p>Hello, User</p>
+                    <p>Accounts & Lists</p>
+                </div>
+                <div class="return">
+                    <p>Returns</p>
+                    <p>& Orders</p>
+                </div>
+                <div class="again">
+                    <p>Buy Again</p>
+                </div>
+                <div class="cart">
+                    <p><i class="fa-solid fa-cart-shopping"></i>Cart</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+    <!-- main container starts -->
+    <div class="main-container">
+        <!-- image slider -->
+        <div class="img-slide">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Assets/top_1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/top_2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/top_3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/top_4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/top_5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev slide-btn" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon slide-arrow" aria-hidden="true"><i class="fa-solid fa-chevron-left fa-3x"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next slide-btn" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon slide-arrow" aria-hidden="true"><i class="fa-solid fa-chevron-right fa-3x"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- recent section -->
+            <div class="recent">
+                <div class="buy-again" id="recent-box">
+                    <h3>Buy Again</h3>
+                    <div class="buy-again-images">
+                        <div class="img-bg">
+                            <img src="Assets/res_protein.jpg" alt="">
+                        </div>
+                        <div class="img-bg">
+                            <img src="Assets/lotion.jpg" alt="">
+                        </div>
+                        <div class="img-bg">
+                            <img src="Assets/gloves_dark.jpg" alt="">
+                        </div>
+                        <div class="img-bg">
+                            <img src="Assets/gloves_light.jpg" alt="">
+                        </div>
+                    </div>
+                    <p>Shop your everyday essentials</p>
+                    <a href="#">See More</a>
+                </div>
+                <!-- shop & pay section -->
+                <div class="shop-pay" id="recent-box">
+                    <h3>Shop & Pay | Earn rewards daily</h3>
+                    <div class="shop-pay-images">
+                        <div class="shop-pay-img-bg">
+                            <img src="Assets/scratch_card.jpg" alt="">
+                            <p>Claim your scratch card</p>
+                        </div>
+                        <div class="shop-pay-img-bg">
+                            <img src="Assets/redeem.jpg" alt="">
+                            <p>Redeem your rewards</p>
+                        </div>
+                        <div class="shop-pay-img-bg">
+                            <img src="Assets/pay_win.jpg" alt="">
+                            <p>Pay & Win scratch cards</p>
+                        </div>
+                        <div class="shop-pay-img-bg">
+                            <img src="Assets/shop_collect.jpg" alt="">
+                            <p>Shop and collect rewards</p>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                </div>
+                <!-- beat the heat section -->
+                <div class="beat-the-heat" id="recent-box">
+                    <h3>Beat the heat with Amazon Brands & more</h3>
+                    <div class="beat-the-heat-images">
+                        <div class="beat-the-heat-img-bg"> 
+                            <img src="Assets/fridge.jpg" alt="">
+                            <p>A/C and refridgeratos</p>            
+                        </div>
+                        <div class="beat-the-heat-img-bg">
+                            <img src="Assets/bottle.jpg" alt="">
+                            <p>Water bottles and ice trays</p>
+                        </div>
+                        <div class="beat-the-heat-img-bg">
+                            <img src="Assets/towels.jpg" alt="">
+                            <p>Towels</p>
+                        </div>
+                        <div class="beat-the-heat-img-bg">
+                            <img src="Assets/curtain.jpg" alt="">
+                            <p>Visit the summer store</p>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                </div>
+                <!-- sell section -->
+                <div class="sell" id="recent-box-transp">
+                    <div class="sell-top">
+                        <div class="txt-sec">
+                            <h3>Sell on Amazon with 50% off on Selling fee</h3>
+                            <a href="#">Register now</a>
+                        </div>
+                        <div class="pic-sec">
+                            <img src="Assets/vegan.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="mini-tv-sec">
+                        <img src="Assets/influencer.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- deal section -->
+        <div class="deal-sec">
+            <div class="carousel" data-flickity>
+                <div class="carousel-cell">
+                    <img src="Assets/deal1.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="Assets/deal2.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="Assets/deal3.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="Assets/deal4.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="Assets/deal5.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="Assets/deal6.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="Assets/deal7.jpg" alt="">
+                </div>    
+                <div class="carousel-cell">
+                    <img src="Assets/deal8.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="Assets/deal9.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="Assets/deal10.jpg" alt="">
+                </div> 
+              </div>
+        </div>
+        <!-- promotion section -->
+        <div class="promo">
+            <img src="Assets/promotion.jpg" alt="">
+        </div>
+        
+    </div>
+    <!-- main container ends -->
+
+    <!-- bottom section starts -->
+
+    <!-- back-to-top -->
+    <div class="top-btn">
+        <a href="#"><button>Back to top</button></a>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="foot-contents">
+            <img src="Assets/Amazon-logo-white.png" alt="">
+            <p>Made by Ansari &copy; 2023</p>
+        </div>
+    </footer>
+
+    <!-- bottom section ends -->
+
+</body>
+
+</html>
